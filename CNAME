@@ -1,4 +1,4 @@
-flyatlas.ma
+www.flyatlas.ma
 $ dig www.flyatlas.ma +nostats +nocomments +nocmd
 > ;www.flyatlas.ma.  IN  A
 > www.flyatlas.ma 3592  IN  CNAME
