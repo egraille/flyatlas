@@ -1,1 +1,6 @@
 flyatlas.ma
+$ dig www.flyatlas.ma +nostats +nocomments +nocmd
+> ;www.flyatlas.ma.  IN  A
+> www.flyatlas.ma 3592  IN  CNAME
+> egraille.github.io. 43192 IN  CNAME
+> GITHUB-PAGES_SERVER . 22  IN  A
