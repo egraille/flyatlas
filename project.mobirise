@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Fly Atlas",
-    "currentPage": "acceuil.html",
+    "currentPage": "accueil.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -1962,7 +1962,7 @@
         }
       ]
     },
-    "acceuil.html": {
+    "accueil.html": {
       "settings": {
         "main": true,
         "title": "Accueil Fly Atlas Parapente - Vol Biplace Guide et Mentor",
