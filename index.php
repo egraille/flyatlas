@@ -1,18 +1,34 @@
 <?php
-// Initialize the language code variable
-$lc = ""; 
-// Check to see that the global language server variable isset()
-// If it is set, we cut the first two characters from that string
-if(isset($_SERVER['HTTP_ACCEPT_LANGUAGE']))
-$lc = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0,1);
+// PHP detect language script.
 
-// Now we simply evaluate that variable to detect specific languages
-if($lc == "fr"){
-header("location: fr/index.html");
-exit();
+//check first to see if they've been nice and set the language
+if (isset($_SERVER["HTTP_ACCEPT_LANGUAGE"])) {
+
+//grab all the languages
+$langs=explode(",",$_SERVER["HTTP_ACCEPT_LANGUAGE"]);
+
+//start going through each one
+foreach ($langs as $value) {
+
+//select only the first two letters
+$choice=substr($value,0,2);
+
+//include the different language page based on their first chosen language
+switch ($choice) {
+case "en":
+include("en/index.html"
+break;
+case "fr":
+include("fr/index.html"
+break;
+default:
+include("en/index.html"
 }
-else{ // don't forget the default case if $lc is empty
-header("location: en/index.html");
-exit();
 }
-?>
+}
+
+//If the language is not set then use this as default
+else {
+include("en/index.html"
+}
+?> 
