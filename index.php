@@ -1,3 +1,5 @@
+<?php
+// PHP detect language script. 
 <?
 $langs = array();
 if (isset($_SERVER['HTTP_ACCEPT_LANGUAGE'])) {
@@ -24,3 +26,4 @@ foreach ($langs as $lang => $val) {
 		// show English site
 	} 
 }
+?>
