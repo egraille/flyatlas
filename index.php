@@ -20,8 +20,8 @@ if (isset($_SERVER['HTTP_ACCEPT_LANGUAGE'])) {
 }
  
 foreach ($langs as $lang => $val) {
-	if (strpos($lang, 'de') === 0) {
-		// show German site
+	if (strpos($lang, 'fr') === 0) {
+		// show French site
 	} else if (strpos($lang, 'en') === 0) {
 		// show English site
 	} 
