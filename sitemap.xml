@@ -1,29 +1,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
-		<loc>https://flyatlas.ma/index.php</loc>
+		<loc>http://flyatlas.ma/index.html</loc>
 	</url>
 	<url>
-		<loc>https://flyatlas.ma/en/guide.html</loc>
+		<loc>http://flyatlas.ma/rules.html</loc>
 	</url>
 	<url>
-		<loc>https://flyatlas.ma/en/index.html</loc>
+		<loc>http://flyatlas.ma/atlas.html</loc>
 	</url>
 	<url>
-		<loc>https://flyatlas.ma/en/Coach.html</loc>
+		<loc>http://flyatlas.ma/aguergour.html</loc>
 	</url>
 	<url>
-		<loc>https://flyatlas.ma/en/tandem.html</loc>
+		<loc>http://flyatlas.ma/travels.html</loc>
 	</url>
 	<url>
-		<loc>https://flyatlas.ma/fr/guide.html</loc>
+		<loc>http://flyatlas.ma/contact.html</loc>
 	</url>
 	<url>
-		<loc>https://flyatlas.ma/fr/index.html</loc>
+		<loc>http://flyatlas.ma/About.html</loc>
 	</url>
 	<url>
-		<loc>https://flyatlas.ma/fr/Coach.html</loc>
-	</url>
-	<url>
-		<loc>https://flyatlas.ma/fr/volbiplace.html</loc>
+		<loc>http://flyatlas.ma/terms.html</loc>
 	</url>
 </urlset>
